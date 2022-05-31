@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9ea11aa4-e3a3-44ef-9bdb-a246d9c41cd7": {
+      "ProjectGuid": "9ea11aa4-e3a3-44ef-9bdb-a246d9c41cd7",
+      "DisplayName": "Senai-fabNew.webAPI",
+      "ColorIndex": 0
+    },
+    "82d217ac-e062-49ed-b6dd-b7592144b6e5": {
+      "ProjectGuid": "82d217ac-e062-49ed-b6dd-b7592144b6e5",
+      "DisplayName": "Senai-fabNew.webAPITest",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

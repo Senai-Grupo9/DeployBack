@@ -135,7 +135,7 @@ namespace Senai_fabNew.webAPI.Repositories
 
         public IEnumerable<RegistroObjeto> Listar()
         {
-            return ctx.RegistroObjetos.OrderBy(r => r.CheckOut).Include(nav => (nav.IdTipoObjNavigation)).ToList();
+            return ctx.RegistroObjetos.OrderByDescending(r => r.CheckOut).Include(nav => (nav.IdTipoObjNavigation)).ToList();
         }
     }
 }

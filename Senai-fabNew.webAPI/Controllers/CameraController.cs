@@ -33,8 +33,6 @@ namespace Senai_fabNew.webAPI.Controllers
         private readonly IRegistroObjetoRepository ro_repository;
         private readonly ITipoObjetoRepository t_repository;
 
-
-
         public CameraController(ICameraRepository ccontexto, IFaceRepository fcontexto, IRegistroPessoaRepository rpcontexto, IRegistroObjetoRepository rocontexto, ITipoObjetoRepository tcontexto)
         {
             c_repository = ccontexto;
@@ -60,11 +58,16 @@ namespace Senai_fabNew.webAPI.Controllers
         {
             string image = await c_repository.GetSnapshot();
 
+            if (image == null)
+            {
+                return BadRequest();
+            }
+
             var objects = await c_repository.AnalyzeImageUrl(image);
 
             if (objects == null)
             {
-                return BadRequest("Espera um pouquinho aí parcero...");
+                return BadRequest("Sobrecarga no reconhecimento, tente novamente mais tarde.");
             }
 
             var objs = t_repository.DetectarObjetos(objects);

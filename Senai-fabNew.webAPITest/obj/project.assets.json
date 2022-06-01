@@ -13704,19 +13704,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\43717830821.INFOSCS\\.nuget\\packages\\": {}
+    "C:\\Users\\51917267827.INFOSCS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj",
+      "projectUniqueName": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj",
       "projectName": "Senai-fabNew.webAPITest",
-      "projectPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj",
-      "packagesPath": "C:\\Users\\43717830821.INFOSCS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPITest\\obj\\",
+      "projectPath": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj",
+      "packagesPath": "C:\\Users\\51917267827.INFOSCS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\43717830821.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\51917267827.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13730,8 +13730,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj": {
-              "projectPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj"
+            "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj": {
+              "projectPath": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj"
             }
           }
         }
@@ -13798,7 +13798,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

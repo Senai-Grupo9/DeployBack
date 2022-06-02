@@ -28,7 +28,7 @@ namespace Senai_fabNew.webAPI.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=tcp:fabsenai.database.windows.net,1433;Initial Catalog=DB-FAB;User Id=SenaiFab@fabsenai;Password=Senai@132");
+                optionsBuilder.UseSqlServer("Data Source=fabsenai.database.windows.net; initial catalog=DB-FAB; user Id=SenaiFab; pwd=Senai@132;");
             }
         }
 
@@ -37,11 +37,9 @@ namespace Senai_fabNew.webAPI.Contexts
             modelBuilder.Entity<Pessoa>(entity =>
             {
                 entity.HasKey(e => e.IdPessoa)
-                    .HasName("PK__pessoa__7061465DD5B29D06");
+                    .HasName("PK__pessoa__7061465D8688E1D8");
 
                 entity.ToTable("pessoa");
-
-                entity.Property(e => e.IdPessoa).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Faceid)
                     .HasMaxLength(100)
@@ -64,11 +62,9 @@ namespace Senai_fabNew.webAPI.Contexts
             modelBuilder.Entity<RegistroObjeto>(entity =>
             {
                 entity.HasKey(e => e.IdRegistroObj)
-                    .HasName("PK__registro__AE878767876A4F2D");
+                    .HasName("PK__registro__AE8787673CD525A5");
 
                 entity.ToTable("registroObjeto");
-
-                entity.Property(e => e.IdRegistroObj).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.CheckIn)
                     .HasColumnType("datetime")
@@ -81,22 +77,20 @@ namespace Senai_fabNew.webAPI.Contexts
                 entity.HasOne(d => d.IdPessoaNavigation)
                     .WithMany(p => p.RegistroObjetos)
                     .HasForeignKey(d => d.IdPessoa)
-                    .HasConstraintName("FK__registroO__IdPes__619B8048");
+                    .HasConstraintName("FK__registroO__IdPes__74AE54BC");
 
                 entity.HasOne(d => d.IdTipoObjNavigation)
                     .WithMany(p => p.RegistroObjetos)
                     .HasForeignKey(d => d.IdTipoObj)
-                    .HasConstraintName("FK__registroO__IdTip__60A75C0F");
+                    .HasConstraintName("FK__registroO__IdTip__73BA3083");
             });
 
             modelBuilder.Entity<RegistroPessoa>(entity =>
             {
                 entity.HasKey(e => e.IdRegistroPessoa)
-                    .HasName("PK__registro__C701218FECA38D10");
+                    .HasName("PK__registro__C701218F8598E5E9");
 
                 entity.ToTable("registroPessoa");
-
-                entity.Property(e => e.IdRegistroPessoa).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.CheckIn)
                     .HasColumnType("datetime")
@@ -109,17 +103,15 @@ namespace Senai_fabNew.webAPI.Contexts
                 entity.HasOne(d => d.IdPessoaNavigation)
                     .WithMany(p => p.RegistroPessoas)
                     .HasForeignKey(d => d.IdPessoa)
-                    .HasConstraintName("FK__registroP__IdPes__6477ECF3");
+                    .HasConstraintName("FK__registroP__IdPes__778AC167");
             });
 
             modelBuilder.Entity<TipoObjeto>(entity =>
             {
                 entity.HasKey(e => e.IdTipoObj)
-                    .HasName("PK__tipoObje__23E92BDB9346DE01");
+                    .HasName("PK__tipoObje__23E92BDB2CF5F9D9");
 
                 entity.ToTable("tipoObjeto");
-
-                entity.Property(e => e.IdTipoObj).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Nome)
                     .HasMaxLength(20)
@@ -130,11 +122,9 @@ namespace Senai_fabNew.webAPI.Contexts
             modelBuilder.Entity<TipoUser>(entity =>
             {
                 entity.HasKey(e => e.IdTipo)
-                    .HasName("PK__TipoUser__9E3A29A57785DD5E");
+                    .HasName("PK__TipoUser__9E3A29A5707C875D");
 
                 entity.ToTable("TipoUser");
-
-                entity.Property(e => e.IdTipo).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Nome)
                     .HasMaxLength(30)
@@ -145,11 +135,9 @@ namespace Senai_fabNew.webAPI.Contexts
             modelBuilder.Entity<Usuario>(entity =>
             {
                 entity.HasKey(e => e.IdUser)
-                    .HasName("PK__Usuario__B7C9263876DCBA5B");
+                    .HasName("PK__Usuario__B7C9263846A6D30A");
 
                 entity.ToTable("Usuario");
-
-                entity.Property(e => e.IdUser).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Email)
                     .HasMaxLength(50)
@@ -164,7 +152,7 @@ namespace Senai_fabNew.webAPI.Contexts
                 entity.HasOne(d => d.IdTipoNavigation)
                     .WithMany(p => p.Usuarios)
                     .HasForeignKey(d => d.IdTipo)
-                    .HasConstraintName("FK__Usuario__IdTipo__693CA210");
+                    .HasConstraintName("FK__Usuario__IdTipo__7C4F7684");
             });
 
             OnModelCreatingPartial(modelBuilder);

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QZ/RFMe+2/GXtXkUUN9zhg1K5RTJwXA8m1hEL1dsL5u+0C7sUgJCc+ZvLBojvGF95sQjjxnRIDbk6bKJND/UEw==",
+  "dgSpecHash": "kgXjZhyIQSDKVSFsq/30XDyCmK2c4VV5HLiKqrhRB1CJ0c4MBQEYkIgmRqJP9mN+SPdyoR1IP+hNkcPNiU5wgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj",
+  "projectFilePath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\43717830821.INFOSCS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\43717830821.INFOSCS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

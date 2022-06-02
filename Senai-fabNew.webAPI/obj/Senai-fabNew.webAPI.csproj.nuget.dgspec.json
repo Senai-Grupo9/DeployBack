@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj": {}
+    "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj": {
+    "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj",
+        "projectUniqueName": "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj",
         "projectName": "Senai-fabNew.webAPI",
-        "projectPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj",
+        "projectPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj",
         "packagesPath": "C:\\Users\\43717830821.INFOSCS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\BackendDeploy\\Senai-fabNew.webAPI\\obj\\",
+        "outputPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\43717830821.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",

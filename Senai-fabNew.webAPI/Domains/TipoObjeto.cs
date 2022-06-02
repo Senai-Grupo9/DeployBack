@@ -10,7 +10,7 @@ namespace Senai_fabNew.webAPI.Domains
             RegistroObjetos = new HashSet<RegistroObjeto>();
         }
 
-        public byte IdTipoObj { get; set; }
+        public long IdTipoObj { get; set; }
         public string Nome { get; set; }
 
         public virtual ICollection<RegistroObjeto> RegistroObjetos { get; set; }

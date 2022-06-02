@@ -10,7 +10,7 @@ namespace Senai_fabNew.webAPI.Domains
             Usuarios = new HashSet<Usuario>();
         }
 
-        public byte IdTipo { get; set; }
+        public long IdTipo { get; set; }
         public string Nome { get; set; }
 
         public virtual ICollection<Usuario> Usuarios { get; set; }

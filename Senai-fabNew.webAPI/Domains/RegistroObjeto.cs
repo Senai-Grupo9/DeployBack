@@ -5,9 +5,9 @@ namespace Senai_fabNew.webAPI.Domains
 {
     public partial class RegistroObjeto
     {
-        public byte IdRegistroObj { get; set; }
-        public byte? IdTipoObj { get; set; }
-        public byte? IdPessoa { get; set; }
+        public long IdRegistroObj { get; set; }
+        public long? IdTipoObj { get; set; }
+        public long? IdPessoa { get; set; }
         public DateTime? CheckIn { get; set; }
         public DateTime? CheckOut { get; set; }
 

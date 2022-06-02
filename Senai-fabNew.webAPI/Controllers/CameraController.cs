@@ -44,16 +44,16 @@ namespace Senai_fabNew.webAPI.Controllers
             t_repository = tcontexto;
         }
 
-        [HttpPost("MakeRegisters")]
-        public async Task<IActionResult> VerificarRegistro(string image)
-        {
-            var objects = await c_repository.AnalyzeImageUrl(image);
+        //[HttpPost("MakeRegisters")]
+        //public async Task<IActionResult> VerificarRegistro(string image)
+        //{
+        //    var objects = await c_repository.AnalyzeImageUrl(image);
 
-            var objs = t_repository.DetectarObjetos(objects);
+        //    var objs = t_repository.DetectarObjetos(objects);
 
-            ro_repository.AtualizaPresenca(objs.ToList());
-            return Ok(ro_repository.Listar());
-        }
+        //    ro_repository.AtualizaPresenca(objs.ToList());
+        //    return Ok(ro_repository.Listar());
+        //}
 
         [HttpPost("MakeRegisters/Camera")]
         public async Task<IActionResult> VerificarRegistroCamera()
@@ -73,51 +73,51 @@ namespace Senai_fabNew.webAPI.Controllers
             return Ok(ro_repository.Listar());
         }
 
-        [HttpPost("MakeRegisters/Person")]
-        public async Task<IActionResult> VerificarRegistroPessoa(string image)
-        {
-            //var image = await c_repository.GetSnapshot();
+        //[HttpPost("MakeRegisters/Person")]
+        //public async Task<IActionResult> VerificarRegistroPessoa(string image)
+        //{
+        //    //var image = await c_repository.GetSnapshot();
 
-            var objects = await c_repository.AnalyzeImageUrl(image);
-            List<DetectedObject> lista = objects.Where(p => p.ObjectProperty == "person").ToList();
+        //    var objects = await c_repository.AnalyzeImageUrl(image);
+        //    List<DetectedObject> lista = objects.Where(p => p.ObjectProperty == "person").ToList();
 
-            List<Pessoa> nowPeople = f_repository.DetectPeopleDetected(image, lista);
-            // return Ok(nowPeople);
+        //    List<Pessoa> nowPeople = f_repository.DetectPeopleDetected(image, lista);
+        //    // return Ok(nowPeople);
 
-            rp_repository.AtualizaPresenca(nowPeople);
-            return Ok(rp_repository.Listar());
-        }
+        //    rp_repository.AtualizaPresenca(nowPeople);
+        //    return Ok(rp_repository.Listar());
+        //}
 
-        [HttpPost("MakeRegisters/Object")]
-        public async Task<IActionResult> VerificarRegistroObjeto(string image)
-        {
+        //[HttpPost("MakeRegisters/Object")]
+        //public async Task<IActionResult> VerificarRegistroObjeto(string image)
+        //{
 
-            var objects = await c_repository.AnalyzeImageUrl(image);
-            List<DetectedObject> lista = objects.Where(p => p.ObjectProperty != "person").ToList();
+        //    var objects = await c_repository.AnalyzeImageUrl(image);
+        //    List<DetectedObject> lista = objects.Where(p => p.ObjectProperty != "person").ToList();
 
-            var objs = t_repository.DetectarObjetos(lista);
-            //return Ok(objs);
+        //    var objs = t_repository.DetectarObjetos(lista);
+        //    //return Ok(objs);
 
-            ro_repository.AtualizaPresenca(objs.ToList());
-            return Ok(ro_repository.Listar());
-        }
+        //    ro_repository.AtualizaPresenca(objs.ToList());
+        //    return Ok(ro_repository.Listar());
+        //}
 
-        [HttpPut("ImageAnalyseUrl/PeopleIdentify")]
-        public async Task<IActionResult> VerificarPessoa(string url)
-        {
-            var objects = await c_repository.AnalyzeImageUrl(url);
-            List<DetectedObject> lista = objects.Where(p => p.ObjectProperty == "person").ToList();
+        //[HttpPut("ImageAnalyseUrl/PeopleIdentify")]
+        //public async Task<IActionResult> VerificarPessoa(string url)
+        //{
+        //    var objects = await c_repository.AnalyzeImageUrl(url);
+        //    List<DetectedObject> lista = objects.Where(p => p.ObjectProperty == "person").ToList();
 
-            List<Pessoa> nowPeople = f_repository.DetectPeopleDetected(url, lista);
-            return Ok(nowPeople);
-        }
+        //    List<Pessoa> nowPeople = f_repository.DetectPeopleDetected(url, lista);
+        //    return Ok(nowPeople);
+        //}
 
-        [HttpPut("ImageAnalyseUrl")]
-        public async Task<IActionResult> VerificarImagem(string url)
-        {
-            var objects = await c_repository.AnalyzeImageUrl(url);
-            return Ok(objects);
-        }
+        //[HttpPut("ImageAnalyseUrl")]
+        //public async Task<IActionResult> VerificarImagem(string url)
+        //{
+        //    var objects = await c_repository.AnalyzeImageUrl(url);
+        //    return Ok(objects);
+        //}
 
         List<DetectedObject> lastResult;
 

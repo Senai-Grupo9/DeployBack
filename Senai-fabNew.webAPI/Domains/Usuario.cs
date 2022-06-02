@@ -5,8 +5,8 @@ namespace Senai_fabNew.webAPI.Domains
 {
     public partial class Usuario
     {
-        public byte IdUser { get; set; }
-        public byte? IdTipo { get; set; }
+        public long IdUser { get; set; }
+        public long? IdTipo { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
 

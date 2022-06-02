@@ -105,13 +105,15 @@ namespace Senai_fabNew.webAPI.Repositories
             {
                 b_repository.DownloadFromBlob(pessoa.Imagem);
 
+                var myint = unchecked((int)pessoa.IdPessoa);
+
                 FileStream fs = new(path + "\\StaticFiles\\SalvarBlob\\" + pessoa.Imagem, FileMode.Open, FileAccess.Read);
 
                 var faces = await DetectFaceRecognize(fs);
 
                 pessoa.Faceid = faces[0].FaceId.Value.ToString();
 
-                p_repository.Alterar(pessoa.IdPessoa, pessoa);
+                p_repository.Alterar(myint, pessoa);
 
                 targetFaceIds.Add(faces[0].FaceId.Value);
 

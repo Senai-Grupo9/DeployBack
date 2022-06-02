@@ -113,8 +113,10 @@ namespace Senai_fabNew.webAPI.Repositories
 
             foreach (var register in registers.ToList())
             {
+                var myint = unchecked((int)register.IdRegistroPessoa);
+
                 register.CheckOut = now;
-                Alterar(register.IdRegistroPessoa, register);
+                Alterar(myint, register);
             }
         }
 

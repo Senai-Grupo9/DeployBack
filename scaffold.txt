@@ -1,1 +1,1 @@
-Scaffold-DbContext "Data Source=serverfab.database.windows.net; initial catalog=DBfab; user Id=severinofab; pwd=Senai@fab13;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context FabSenaiNewContext
+Scaffold-DbContext "Data Source=fabsenai.database.windows.net; initial catalog=DB-FAB; user Id=SenaiFab; pwd=Senai@132;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context FabSenaiNewContext

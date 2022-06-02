@@ -11,7 +11,7 @@ namespace Senai_fabNew.webAPI.Domains
             RegistroPessoas = new HashSet<RegistroPessoa>();
         }
 
-        public byte IdPessoa { get; set; }
+        public long IdPessoa { get; set; }
         public string Nome { get; set; }
         public string Imagem { get; set; }
         public string Faceid { get; set; }

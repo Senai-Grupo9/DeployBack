@@ -8,18 +8,9 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Senai_fabNew.webAPI
 build_property.RootNamespace = Senai_fabNew.webAPI
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\43717830821.INFOSCS\Desktop\DeployBack\Senai-fabNew.webAPI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\43717830821.INFOSCS\Desktop\DeployBack\Senai-fabNew.webAPI
 build_property._RazorSourceGeneratorDebug =
-=======
-build_property.ProjectDir = C:\Users\51917267827.INFOSCS\Desktop\DeployBack\Senai-fabNew.webAPI\
-build_property.RazorLangVersion = 6.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\51917267827.INFOSCS\Desktop\DeployBack\Senai-fabNew.webAPI
-build_property._RazorSourceGeneratorDebug = 
->>>>>>> 9f3a64bd27e16c7214f26a6c936099eda8c03b1e

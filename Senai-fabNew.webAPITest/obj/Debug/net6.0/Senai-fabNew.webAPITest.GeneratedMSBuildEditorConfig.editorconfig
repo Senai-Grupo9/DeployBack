@@ -7,8 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Senai_fabNew.webAPITest
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\43717830821.INFOSCS\Desktop\DeployBack\Senai-fabNew.webAPITest\
-=======
-build_property.ProjectDir = C:\Users\51917267827.INFOSCS\Desktop\DeployBack\Senai-fabNew.webAPITest\
->>>>>>> 9f3a64bd27e16c7214f26a6c936099eda8c03b1e

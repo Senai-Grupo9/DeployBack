@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj": {}
   },
   "projects": {
@@ -13,22 +12,9 @@
         "projectPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj",
         "packagesPath": "C:\\Users\\43717830821.INFOSCS\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\obj\\",
-=======
-    "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj",
-        "projectName": "Senai-fabNew.webAPITest",
-        "projectPath": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\Senai-fabNew.webAPITest.csproj",
-        "packagesPath": "C:\\Users\\51917267827.INFOSCS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPITest\\obj\\",
->>>>>>> 9f3a64bd27e16c7214f26a6c936099eda8c03b1e
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\51917267827.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\43717830821.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,13 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj": {
                 "projectPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj"
-=======
-              "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj": {
-                "projectPath": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj"
->>>>>>> 9f3a64bd27e16c7214f26a6c936099eda8c03b1e
               }
             }
           }
@@ -115,11 +96,10 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -128,19 +108,9 @@
         "projectPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj",
         "packagesPath": "C:\\Users\\43717830821.INFOSCS\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\43717830821.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\obj\\",
-=======
-    "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj",
-        "projectName": "Senai-fabNew.webAPI",
-        "projectPath": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\Senai-fabNew.webAPI.csproj",
-        "packagesPath": "C:\\Users\\51917267827.INFOSCS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\51917267827.INFOSCS\\Desktop\\DeployBack\\Senai-fabNew.webAPI\\obj\\",
->>>>>>> 9f3a64bd27e16c7214f26a6c936099eda8c03b1e
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\51917267827.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\43717830821.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -267,7 +237,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

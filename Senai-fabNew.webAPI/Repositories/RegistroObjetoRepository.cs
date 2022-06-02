@@ -21,7 +21,9 @@ namespace Senai_fabNew.webAPI.Repositories
 
         public void Alterar(int id, RegistroObjeto RegistroObjetoAtt)
         {
-            RegistroObjeto RobjetoBuscado = ctx.RegistroObjetos.Find(Convert.ToByte(id));
+            var myint = unchecked((long)id);
+
+            RegistroObjeto RobjetoBuscado = ctx.RegistroObjetos.Find(myint);
 
             if (RegistroObjetoAtt.CheckIn != null)
             {

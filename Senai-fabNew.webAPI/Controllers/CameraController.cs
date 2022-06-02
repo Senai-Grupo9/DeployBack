@@ -60,7 +60,7 @@ namespace Senai_fabNew.webAPI.Controllers
 
             if (image == null)
             {
-                return BadRequest();
+                return BadRequest("imagem erro");
             }
 
             var objects = await c_repository.AnalyzeImageUrl(image);

@@ -87,7 +87,9 @@ namespace Senai_fabNew.webAPI.Repositories
 
             foreach (var item in lista)
             {
-                if (BuscarPorNome(item.ObjectProperty) == null)
+                var obj = BuscarPorNome(item.ObjectProperty);
+                
+                if (obj.Nome == null)
                 {
                     TipoObjeto t = new()
                     {
@@ -97,7 +99,6 @@ namespace Senai_fabNew.webAPI.Repositories
                     Cadastrar(t);
                 };
 
-                var obj = BuscarPorNome(item.ObjectProperty);
                 objs.Add(obj);
             }
 
